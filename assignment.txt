@@ -1,3 +1,0 @@
-ITM Flutter Assignment 1 Dart
-
-Link :- https://itm-flutter-assignment-1-dart.netlify.app/
