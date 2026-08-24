@@ -1,0 +1,6 @@
+name: itm_flutter_assignment_1_dart
+description: Solutions for all 100 ITM Flutter Assignment 1 Dart practice questions.
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+executables:
+  solutions: solutions
