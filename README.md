@@ -1,16 +1,17 @@
 # ITM Flutter Assignment 1 — Dart Solutions
 
-This repository contains runnable solutions for all **100 practice questions** in the assignment. The examples use deterministic sample values so the full set can be executed and reviewed with one command.
+This repository contains runnable solutions for all **100 practice questions**. Each question is implemented in its own standalone Dart file under `bin/questions/`, named `question_001.dart` through `question_100.dart`. Shared classes and helper declarations are kept in `bin/questions/common.dart`.
 
-## Run
+## Run one question
 
-Install Dart 3 or newer, then run:
+Install Dart 3 or newer, then run any question independently:
 
 ```bash
-dart format bin/solutions.dart
-dart run bin/solutions.dart
+dart format bin/questions
+dart analyze bin/questions
+dart run bin/questions/question_001.dart
 ```
 
-Each solution is implemented as `q01()` through `q100()` in `bin/solutions.dart`. Supporting functions and classes are kept in the same file to make each answer easy to locate and study.
+Change the filename to run any of the 100 questions. Every question file has its own `main()` and imports the shared support declarations.
 
 The original assignment is available at [engineersurajsahani/itm-flutter-assignment-1-dart](https://github.com/engineersurajsahani/itm-flutter-assignment-1-dart).
