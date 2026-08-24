@@ -18,13 +18,13 @@ void main() {
 
   print('1. Positional Default Parameters:');
   print('a) Passing required argument only:');
-  greetUser('Amitabh');
+  greetUser('Aadarsh');
 
   print('\nb) Overriding second parameter:');
-  greetUser('Amitabh', 'Good morning');
+  greetUser('Aadarsh', 'Good morning');
 
   print('\nc) Overriding all optional parameters:');
-  greetUser('Amitabh', 'Welcome', '!!!');
+  greetUser('Aadarsh', 'Welcome', '!!!');
 
   print('\n---------------------------------------------\n');
 

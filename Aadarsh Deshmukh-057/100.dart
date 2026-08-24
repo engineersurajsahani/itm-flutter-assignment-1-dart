@@ -62,7 +62,7 @@ void main() {
   print('--- Complete Dart Class (Private Fields, Getters & Setters) Demonstration ---\n');
 
   print('1. Creating Employee instance using Constructor:');
-  Employee emp = Employee(501, 'Amitabh Morey', 85000.0, 'Engineering');
+  Employee emp = Employee(501, 'Aadarsh Morey', 85000.0, 'Engineering');
   emp.displayEmployeeInfo();
 
   print('\n2. Updating properties via public setters:');

@@ -2,7 +2,7 @@ void main() {
   
   int age = 20;
   double pi = 3.14159;
-  String name = "Amitabh";
+  String name = "Aadarsh";
   bool isStudent = true;
   dynamic dynamicVar = "Initial String Value";
 

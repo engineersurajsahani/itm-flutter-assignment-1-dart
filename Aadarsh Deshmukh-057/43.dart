@@ -29,7 +29,7 @@ void main() {
   print('   Result = $sum2\n');
 
   print('3. Calling printUserInfo with named arguments:');
-  printUserInfo(age: 20, name: 'Amitabh Morey');
+  printUserInfo(age: 20, name: 'Aadarsh Morey');
   print('');
 
   print('4. Calling printUserInfo with all named arguments:');

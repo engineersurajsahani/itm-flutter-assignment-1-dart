@@ -55,11 +55,11 @@ class UserProfile {
 void main() {
   print('--- Encapsulation with Validation Demonstration ---\n');
 
-  UserProfile user = UserProfile('Amitabh', 20, 95.5);
+  UserProfile user = UserProfile('Aadarsh', 20, 95.5);
   user.displayProfile();
 
   print('\n1. Applying Valid Updates:');
-  user.name = 'Amitabh Morey';
+  user.name = 'Aadarsh Morey';
   user.age = 22;
   user.score = 99.0;
   user.displayProfile();

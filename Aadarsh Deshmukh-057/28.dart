@@ -17,7 +17,7 @@ class Student {
 }
 
 void main() {
-  Student student1 = Student(101, 'Amitabh Morey', 92.5);
+  Student student1 = Student(101, 'Aadarsh Morey', 92.5);
   Student student2 = Student(102, 'Rohan Sharma', 85.0);
 
   student1.display();

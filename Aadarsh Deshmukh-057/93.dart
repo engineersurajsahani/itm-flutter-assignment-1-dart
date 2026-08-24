@@ -38,7 +38,7 @@ class UserAccount {
 void main() {
   print('--- Read-Only and Write-Only Encapsulation Demonstration ---\n');
 
-  UserAccount user = UserAccount('USR-77210', 'amitabh_m');
+  UserAccount user = UserAccount('USR-77210', 'aadarsh_m');
 
   print('1. Accessing READ-ONLY Property (id):');
   print('   User ID: ${user.id}');
@@ -46,7 +46,7 @@ void main() {
 
   print('2. Accessing READ & WRITE Property (username):');
   print('   Current Username : ${user.username}');
-  user.username = 'amitabh_morey';
+  user.username = 'aadarsh_morey';
   print('   Updated Username : ${user.username}\n');
 
   print('3. Accessing WRITE-ONLY Property (password):');

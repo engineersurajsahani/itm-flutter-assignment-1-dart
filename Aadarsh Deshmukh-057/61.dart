@@ -36,7 +36,7 @@ void main() {
   print('--- Employee & Manager Inheritance Demonstration ---\n');
 
   print('1. Base Employee Instance:');
-  Employee employee = Employee('Amitabh', 50000.0);
+  Employee employee = Employee('Aadarsh', 50000.0);
   employee.displayDetails();
 
   print('\n2. Derived Manager Instance (using super):');

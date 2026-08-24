@@ -17,10 +17,10 @@ void main() {
   print('1. Calling printProfile with different numbers of arguments:');
 
   print('a) Required parameter only:');
-  printProfile('Amitabh');
+  printProfile('Aadarsh');
 
   print('\nb) Required + 1 optional parameter:');
-  printProfile('Amitabh Morey', 20);
+  printProfile('Aadarsh Morey', 20);
 
   print('\nc) All 3 positional parameters:');
   printProfile('Rohan Sharma', 25, 'Canada');

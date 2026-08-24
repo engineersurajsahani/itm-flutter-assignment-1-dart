@@ -44,7 +44,7 @@ void main() {
   print('--- Abstract Class Constructor Demonstration ---\n');
 
   print('1. Instantiating SavingsAccount object:');
-  SavingsAccount account = SavingsAccount('SA-9901', 'Amitabh Morey', 25000.0, 6.5);
+  SavingsAccount account = SavingsAccount('SA-9901', 'Aadarsh Morey', 25000.0, 6.5);
 
   print('\n2. Account Information & Interest Calculation:');
   account.displayBaseInfo();

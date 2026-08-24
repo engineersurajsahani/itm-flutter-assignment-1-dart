@@ -22,7 +22,7 @@ void main() {
   print('--- Comparable Interface & Object Sorting Demonstration ---\n');
 
   List<Student> students = [
-    Student(101, 'Amitabh', 88.5),
+    Student(101, 'Aadarsh', 88.5),
     Student(102, 'Rohan', 95.0),
     Student(103, 'Siddharth', 72.0),
     Student(104, 'Ananya', 91.5),

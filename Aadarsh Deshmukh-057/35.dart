@@ -35,14 +35,14 @@ void main() {
   print('--- Private Fields, Getters, and Setters in Dart ---\n');
 
   // Instantiate object
-  Person person = Person('Amitabh', 20);
+  Person person = Person('Aadarsh', 20);
 
   // Reading properties via getters
   print('Initial Name : ${person.name}');
   print('Initial Age  : ${person.age}');
 
   print('\nUpdating values using setters...');
-  person.name = 'Amitabh Morey';
+  person.name = 'Aadarsh Morey';
   person.age = 21;
 
   // Reading updated properties via getters
