@@ -1,10 +1,13 @@
-// Iterate over a List using for-in and forEach
-void main(){
-  var list= [1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 2, 10, 5, 8, 1, 3];
-  for (var i in list){
-    print(i);
-  }
-  print("------");
-  list.forEach(print);
+void main() {
+  int num1 = 25;
+  int num2 = 42;
+  int num3 = 18;
+
   
+  int largest = (num1 >= num2 && num1 >= num3)
+      ? num1
+      : (num2 >= num3 ? num2 : num3);
+
+  print('Numbers: num1 = $num1, num2 = $num2, num3 = $num3');
+  print('The largest number is: $largest');
 }

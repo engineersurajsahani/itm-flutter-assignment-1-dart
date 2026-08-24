@@ -1,6 +1,14 @@
-// Transform a List using map()
-void main(){
-  var list=[1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 2, 10, 5, 8, 1, 3];
-  var list2=list.map((i)=>i*i).toList();
-  print(list2);
+void main() {
+  int a = 17;
+  int b = 5;
+
+  print('--- Arithmetic Operations on two integers ---');
+  print('Operands: a = $a, b = $b\n');
+
+  print('Addition (a + b)          : ${a + b}');
+  print('Subtraction (a - b)       : ${a - b}');
+  print('Multiplication (a * b)    : ${a * b}');
+  print('Division (a / b)          : ${a / b}');
+  print('Integer Division (a ~/ b) : ${a ~/ b}');
+  print('Modulus (a % b)           : ${a % b}');
 }

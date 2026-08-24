@@ -1,13 +1,6 @@
 void main() {
-  Map<String, int> marks = {
-    'Amit': 85,
-    'Neha': 92,
-    'Ravi': 78,
-    'Sara': 88,
-    'Karan': 95
-  };
-
-  print(marks.keys.toList());
-  print(marks.values.toList());
-  print(marks.length);
+  print('--- Numbers from 1 to 100 ---');
+  for (int i = 1; i <= 100; i++) {
+    print(i);
+  }
 }

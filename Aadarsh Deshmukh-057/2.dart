@@ -1,8 +1,31 @@
-//Add and remove elements from a List
-void main(){
-  var list= [1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 2, 10, 5, 8, 1, 3];
-  list.add(5);
-  list.insert(0,55);
-  list.addAll([1,5,6]);
-  print(list);
+void main() {
+  int a = 10;
+  int b = 20;
+
+  print('=== Initial Values ===');
+  print('a = $a, b = $b');
+
+  
+  print('\n--- 1. Swap using a temporary variable ---');
+  print('Before swap: a = $a, b = $b');
+  int temp = a;
+  a = b;
+  b = temp;
+  print('After swap : a = $a, b = $b');
+
+  
+  print('\n--- 2. Swap without temporary variable (Arithmetic) ---');
+  print('Before swap: a = $a, b = $b');
+  a = a + b; 
+  b = a - b; 
+  a = a - b; 
+  print('After swap : a = $a, b = $b');
+
+  
+  print('\n--- 3. Swap without temporary variable (Bitwise XOR) ---');
+  print('Before swap: a = $a, b = $b');
+  a = a ^ b; 
+  b = a ^ b; 
+  a = a ^ b; 
+  print('After swap : a = $a, b = $b');
 }

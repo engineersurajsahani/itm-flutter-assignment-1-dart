@@ -1,10 +1,17 @@
-// Filter a List using where()
+void checkEvenOrOdd(int number) {
+  
+  if ((number & 1) == 0) {
+    print('$number is Even');
+  } else {
+    print('$number is Odd');
+  }
+}
 
-void main(){
-  var list= [1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 2, 10, 5, 8, 1, 3] ;
-  int find=10;
-  var store=list.where((i){
-    return i==find;
-  });
-  print(store);
+void main() {
+  int num1 = 14;
+  int num2 = 27;
+
+  print('--- Checking Even / Odd using Bitwise AND (&) ---');
+  checkEvenOrOdd(num1);
+  checkEvenOrOdd(num2);
 }

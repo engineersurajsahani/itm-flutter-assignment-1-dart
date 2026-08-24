@@ -1,13 +1,33 @@
-void main() {
-  String text = 'hello world';
-  Map<String, int> frequency = {};
+import 'dart:io';
 
-  for (String ch in text.split('')) {
-    if (ch == ' ') {
-      continue;
-    }
-    frequency[ch] = (frequency[ch] ?? 0) + 1;
+int computeSum(int n) {
+  int sum = 0;
+  int i = 1;
+  while (i <= n) {
+    sum += i;
+    i++;
   }
+  return sum;
+}
 
-  print(frequency);
+void main() {
+  stdout.write('Enter a positive integer n: ');
+  String? input = stdin.readLineSync();
+
+  if (input != null && input.trim().isNotEmpty) {
+    int? n = int.tryParse(input.trim());
+    if (n != null && n > 0) {
+      int sum = computeSum(n);
+      print('Sum of first $n natural numbers (1 to $n) = $sum');
+    } else {
+      print('Invalid input: Please enter a positive integer greater than 0.');
+    }
+  } else {
+    print('No input provided via stdin. Running test cases:\n');
+    List<int> testCases = [5, 10, 50, 100];
+    for (int n in testCases) {
+      int sum = computeSum(n);
+      print('n = $n -> Sum = $sum');
+    }
+  }
 }

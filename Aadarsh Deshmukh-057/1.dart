@@ -1,6 +1,29 @@
-//Create and print a List of integers
-void main(){
-  var list= [1, 3, 5, 7, 9, 2, 4, 6, 8, 10, 2, 10, 5, 8, 1, 3];
-  print(list);
+void main() {
+  
+  int age = 20;
+  double pi = 3.14159;
+  String name = "Amitabh";
+  bool isStudent = true;
+  dynamic dynamicVar = "Initial String Value";
 
+  print('--- Primitive & Dynamic Types ---');
+  print('int: $age');
+  print('double: $pi');
+  print('String: $name');
+  print('bool: $isStudent');
+  print('dynamic (String): $dynamicVar');
+
+  
+  dynamicVar = 100;
+  print('dynamic (reassigned to int): $dynamicVar');
+
+  
+  var inferredString = "Inferred String using var"; 
+  var inferredInt = 42;                             
+  final finalVal = "Constant value set once using final"; 
+
+  print('\n--- Type Inference (var & final) ---');
+  print('var (String): $inferredString (Type: ${inferredString.runtimeType})');
+  print('var (int): $inferredInt (Type: ${inferredInt.runtimeType})');
+  print('final: $finalVal (Type: ${finalVal.runtimeType})');
 }
